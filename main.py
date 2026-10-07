@@ -10,7 +10,7 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, LinkPrevie
 from aiogram.types.business_connection import BusinessConnection
 from aiogram.types.message import Message
 
-TOKEN = os.getenv("8580285982:AAGWJFJBh64LIlBpGs7TFn4jtDSMyYKSWzU")
+TOKEN = os.getenv("TOKEN_BOT")
 ADMIN_ID = 8998830409
 ACCESS_FILE = Path(__file__).resolve().with_name("allowed_users.json")
 RECIPIENT_FILE = Path(__file__).resolve().with_name("nft_recipient.json")
